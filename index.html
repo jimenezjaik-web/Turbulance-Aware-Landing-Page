@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="%%description%%">
+    <meta name="google-site-verification" content="e7Xv7jMEd1pgElFxoSIIPtCSQbNIGGKD3w6Jv2KuiXU"/>
+    
+    
+    <!-- Open Graph tags -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="%%title%%" />
+    <meta property="og:description" content="%%description%%" />
+    <meta property="og:url" content="https://go.updates.iata.org/timatic-client-story" />
+    <meta property="og:site_name" content="https://www.iata.org/" />
+    <meta property="og:image" content="https://go.updates.iata.org/l/123902/2020-09-24/8chx42/123902/320939/4099_LinkedIn_Banner_2_for_June_Releases_Campaign_1200x628_V3.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="628" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="%%title%%" />
+    <meta name="twitter:description" content="%%description%%" />
+    <meta name="twitter:url" content="LANDING PAGE LINK" />
+    <meta name="twitter:image" content="IMAGE LINK" />
+   
+    <!-- Open Graph tags -->
+    
+    <link rel="icon" href="../../../../favicon.ico">
+    <base href="https://go.updates.iata.org/">
+    <title>IATA Turbulence Aware</title>
+    
+    <!--Template based on URL below-->
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/starter-template/">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <!-- Timatic Widget CSS -->
+    <link rel="stylesheet" href="https://widget.iata.hosting.netmatch.eu/client-customizations.css">
+
+    
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-T883LZ');</script>
+    <!-- End Google Tag Manager -->
+    
+    <style>
+        
+        *, html {
+            font-family: sans-serif;
+        }
+        .newsletter a::after {
+            width: 28px;
+            height: 27px;
+            position: absolute;
+            right: 5px;
+            bottom: 5px;
+            content: "";
+            background: url(https://go.updates.iata.org/l/123902/2019-09-09/83wkzn/123902/295391/buttonDwn.png) center center no-repeat;
+            -webkit-transition: all 0.5s;
+            transition: all 0.5s;
+        }
+        
+        .borderbottom::after {
+            content: '';
+            display: block;
+            padding-bottom: 20px;
+            border-bottom: 15px solid #fac832;
+            width: 20%;
+            margin: 0 auto;
+        }
+        
+        .display-mobile {
+            overflow: visible !important;
+            float: none !important;
+            display: block !important;
+            line-height:100% !important;
+        }
+        
+        .non-display-mobile {
+            display: none !important;
+        }
+        
+        .hero {
+            background-image: url('https://go.updates.iata.org/l/123902/2020-12-09/8kl186/123902/1607551538BgKaUD4k/hero_low.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: top;
+            position: relative;
+            height: 500px;
+            width: 100%;
+        }
+/*
+        .cutout {
+            position: relative;
+            width: 100%;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+*/
+        
+        .cutout:after {
+            content: '';
+            position: absolute;
+            width: 1100%;
+            height: 1100%;
+            bottom: 20px;
+            right: -500%;
+            background: rgba(30,50,250,1);
+            transform-origin: 54% 100%;
+            transform: rotate(-45deg);
+            z-index: -1;
+        }
+        
+        
+        /* ------ Pardot Form : START ------ */
+        
+        form .form {
+            padding: 0 !important;
+        }
+        
+        form.form p.submit input {
+            margin: 0;
+            padding: 12px 0;
+            text-align: center;
+            border: none;
+/*            background: url(https://go.updates.iata.org/l/123902/2020-06-18/89xzm6/123902/314511/submit_btn.svg) no-repeat center center;*/
+            width: 100%;
+            height: 44px;
+            cursor: pointer;
+        }
+        
+        form.form p.submit input:hover {
+            margin: 0;
+            padding: 12px 0;
+            text-align: center;
+            border: none;
+/*            background: url(https://go.updates.iata.org/l/123902/2020-06-18/89xzm2/123902/314507/submit_btn_hover.svg) no-repeat center center;*/
+            width: 100%;
+            height: 44px;
+            cursor: pointer;
+            opacity: 1;
+            transition: 300ms;
+        }
+        
+/*
+        form#pardot-form.form p.submit input {
+            margin: 10px 10px 0 !important;
+        }
+*/
+        
+/*
+        #hero #pardot-form textarea#123902_216839pi_123902_216839 .standard {
+            height: 80px !important;
+        }
+*/
+        
+        .standard {
+            height: 80px !important;
+        }
+        
+        #pardot-form select {
+            width: 100% !important;
+            height: 30px !important;
+        }
+        
+        form.form p.required label, form.form span.required label {
+            background: url('https://go.updates.iata.org/l/123902/2020-07-06/8bgxf2/123902/315701/required.svg') no-repeat top right;
+        }
+        
+        
+        #pardot-form {
+            font-family: Arial, sans-serif;
+            color: grey;
+            font-size: 26px;
+        }
+        
+        #pardot-form p span.value span {
+            height: 60px !important;
+        }
+
+        #pardot-form.form p {
+            padding-bottom: 10px;
+            width: 95%;
+            margin: 0 auto;
+            text-align: center;
+        }
+        
+       #pardot-form input#123902_216144pi_123902_216144_1593098 {
+            margin: 0 5px !important;
+        }
+
+        #pardot-form.form p label {
+            color: #ffffff;
+            font-size: 12px;
+            width: 100%;
+            line-height: 125%;
+            text-align: left;
+            font-weight: 200;
+            padding: 5px 0;
+        }
+
+        #pardot-form.form input[type=text], #pardot-form.form input[type="email"], #pardot-form.form textarea {
+            height: 30px;
+            width: 100%;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            color: #4a4a4a;
+            padding: 0px 20px;
+            border: none !important;
+        }
+
+        #pardot-form.form textarea {
+            height: 30px;
+        }
+
+        form.form select:focus {
+            width: 100% !important;
+            height: 30px !important;
+        }
+        
+        form.form select {
+            width: 100% !important;
+            height: 30px !important;
+            border: none !important;
+        }
+
+        @media (min-width: 980px) and (max-width: 1340px) {
+            select {
+            width: 95%;}
+        }
+        
+        @media (min-width: 728px) and (max-width: 1200px) {
+            .lineheight {
+                line-height: 21px !important;
+            }
+        }
+
+        @media (max-width: 979px) {
+            #pardot-form.form p {
+                width: 95%;
+            }
+        }
+
+        @media (max-width: 480px) {
+            #pardot-form.form p label {
+            width: 125px;}
+        }
+
+        #pardot-form input[type="submit"] {
+            font-family: Arial, sans-serif;
+            color: #000000 !important;
+/*            font-size: 14px;*/
+            font-weight: bold;
+/*            line-height: 29px;*/
+            padding: 5px 25px;
+            background-color:#fac832;
+            margin-top: 20px;
+            text-align: center;
+            border: 0px;
+            outline: none;
+        }
+
+        #pardot-form input[type="submit"]:hover{
+            background-color:#ffffff;
+            color: #1e32fa !important;
+        }
+        
+        /* ------ Pardot Form : END ------ */
+        
+        
+        
+        
+        @media screen and (max-width: 1200px) {
+            .footer-text {
+                text-align: center !important;
+            }
+            .logo {
+                padding: 0 0 20px;
+            }
+            .header {
+                padding: 50px 0 0 !important;
+            }
+            #hero {
+                height: 100% !important;
+                background-image: url('https://go.updates.iata.org/l/123902/2020-12-09/8kkzb2/123902/1607547428zzfEITH0/hero_tablet.jpg'); background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center right;
+                height: 1120px;
+            }
+        }
+        
+        @media screen and (max-width: 600px) {
+            #hero {
+                height: 100% !important;
+                background-image: url('https://go.updates.iata.org/l/123902/2020-12-09/8kkz9z/123902/16075474287zCKmFFl/hero_mobile.jpg'); background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center right;
+                height: 1120px;
+            }
+            .form-mobile {
+                margin: 0 20px;
+            }
+        }
+        
+        
+        
+    </style>
+</head>
+
+<body>
+
+    <!-- Logo : START -->
+	<div style="padding: 30px;">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12" data-aos="fade-down">
+					<div pardot-region="Logo">
+						<a href="https://www.iata.org/en/services/safety-flight-operations/turbulence-platform/" target="_blank"><img alt="IATA" src="https://go.updates.iata.org/l/123902/2020-12-08/8kkqcn/123902/1607446793zmDsiHBO/logo.png" width="200px"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+    <!-- Logo : END -->
+    
+    
+    <!-- Hero : START -->
+	<div class="hero"  style="height: 350px; overflow-y:hidden;">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12" style="padding: 80px 20px;">
+                    <div data-aos="fade-right">
+                        <p class="title" style="line-height: 125%;"><img class="img-responsive" src="https://go.updates.iata.org/l/123902/2020-12-08/8kkqcl/123902/1607446561yHy1IVzz/banner_title.png" width="290px"></p>
+                    </div>
+				</div>
+			</div>
+		</div>
+	</div>
+    <!-- Hero : END -->
+    
+    <!-- bottom banner : START -->
+    <div style="background-color: #; overflow: hidden;">
+        <div class="container" style="padding: 20px">
+            <div class="row" style="overflow: hidden;">
+                <div class="col-md-7" style="padding: 0px 0px;" data-aos="fade-up">
+                    <div style="background-image: url(images/element.svg); background-repeat: no-repeat; background-size:contain;">
+                        <p style="color: #7C7C7C; font-size: 48px; line-height: 125%; font-weight: normal; padding: 20px 30px 20px 30px;"><img class="img-responsive" src="https://go.updates.iata.org/l/123902/2020-12-09/8kl1fs/123902/1607552087M69WHc3M/Paragraph.png" width="100%" height="auto"></p>
+                    </div>
+                </div>
+                <div class="col-md-5 form-mobile" style="padding: 20px 10px 40px; height: 100%; overflow: hidden;" data-aos="fade-down">
+				    <div class="cutout" style="background-color: #1e32fa; overflow: hidden;">
+				        <!-- <p style="color: #ffffff; padding: 0 20px 0; line-height: 155%; font-size: 32px; font-weight: bold;">Contact</p> -->
+				        %%content%%
+				    </div>
+				</div>
+            </div>
+        </div>
+    </div>
+    <!-- bottom banner : END -->
+    
+    <!-- TIMATIC WEB SCRIPT : START -->
+	<div style="background-color: #ffffff; overflow: hidden;">
+		<div class="container">
+			<div class="row" style="overflow: hidden;">
+				<div class="col-md-12" style="padding: 40px 40px ;"  data-aos="fade-down">
+                    <div id="iata-timatic-widget" class="">
+                        <script src="https://widget.iata.hosting.netmatch.eu/scripts/iata-timatic-widget-live.js"></script>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- TIMATIC WEB SCRIPT : END -->
+    
+    <!-- Yellow banner 1 : START -->
+	<div style="background-color: #FAC832; overflow: hidden;">
+		<div class="container">
+			<div class="row" style="overflow: hidden;">
+				<div class="col-md-12" style="padding: 20px 20px 0;"  data-aos="fade-down">
+                    <div style="">
+                        <p style="color: #000000; font-size: 20px; line-height: 125%; font-weight: normal; padding: 15px; text-align: center;">This real time turbulence avoidance solution using aircraft generated data can be <strong>used by the operations team, pilots, crews, and passengers.</strong></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Yellow banner 1 : END -->
+    
+    <!-- Safety Block : START -->
+	<div style="background-color: #ffffff; overflow: hidden;" data-aos="fade-up">
+		<div class="container">
+			<div class="row" style="padding-left: 10px; margin: 10px;">
+                                <div class="col-md-10 col-sm-10 col" style="line-height: 180%; padding-bottom: 0px;">
+                                    <p style="padding: 15px 30px 0px 30px;"><img width="50%" src="https://go.updates.iata.org/l/123902/2020-12-08/8kkrts/123902/1607475200ZitnCHN0/safety.png"></p>
+                                    <p style="color: #000000; font-size: 24px; line-height: 125%; font-weight: normal; padding: 15px 30px 0px 30px;">Real-time Turbulence data allows the crew to avoid dangerous weather and maintain high safety standards in flight.</p>
+                                </div>
+                                <div class="row" style="padding-left: 45px; margin: 10px;">
+                                <div class="col-md-1.5" style="padding-bottom: 15px; margin: 0;">
+                                    <img width="20" src="https://go.updates.iata.org/l/123902/2020-12-08/8kkqpj/123902/1607452231Ip7oYJZL/bullet.png" alt="bullet">
+                                </div>
+                                <div class="col-md-10 col-sm-10 col" style="line-height: 180%; padding-bottom: 0px;">
+                                    <p style="color: #000000; font-size: 20px; text-align: left;">Increases passenger and crew safety</p>
+                                </div>
+                            </div>
+                            
+                            <div class="row" style="padding-left: 45px; margin: 10px;">
+                                <div class="col-md-1.5" style="padding-bottom: 15px; margin: 0;">
+                                    <img width="20" src="https://go.updates.iata.org/l/123902/2020-12-08/8kkqpj/123902/1607452231Ip7oYJZL/bullet.png" alt="bullet">
+                                </div>
+                                <div class="col-md-10 col-sm-10 col" style="line-height: 180%; padding-bottom: 0px;">
+                                    <p style="color: #000000; font-size: 20px; text-align: left;">Prevents potential aircraft damage and associated down time</p>
+                                </div>
+                            </div>
+                        
+                            <div class="row" style="padding-left: 45px; margin: 10px;">
+                                <div class="col-md-1.5" style="padding-bottom: 15px; margin: 0;">
+                                    <img width="20" src="https://go.updates.iata.org/l/123902/2020-12-08/8kkqpj/123902/1607452231Ip7oYJZL/bullet.png" alt="bullet">
+                                </div>
+                                <div class="col-md-10 col-sm-10 col" style="line-height: 180%; padding-bottom: 0px;">
+                                    <p style="color: #000000; font-size: 20px; text-align: left;">Real-time wind and temperature data available contributes to improvement in situational awareness</p>
+                                </div>
+                            </div>
+                            </div>
+        </div>
+    </div>
+    <!-- Safety Block : END -->
+    
+    <!-- XP Block : START -->
+	<div style="background-color: #ffffff; overflow: hidden;" data-aos="fade-up">
+		<div class="container">
+			<div class="row" style="padding-left: 10px; margin: 10px;">
+                <div class="col-md-10 col-sm-10 col" style="line-height: 180%; padding-bottom: 0px;">
+                    <p style="padding: 15px 30px 0px 30px;"><img width="70%" src="https://go.updates.iata.org/l/123902/2020-12-08/8kkrtq/123902/1607475200CBZSFMgb/improved.png"></p>
+                    <p style="color: #000000; font-size: 24px; line-height: 125%; font-weight: normal; padding: 15px 30px 0px 30px;">Data-driven turbulence reports assure a pleasant, uninterrupted passenger experience.</p>
+                </div>
+                <div class="row" style="padding-left: 45px; margin: 10px;">
+                    <div class="col-md-1.5" style="padding-bottom: 15px; margin: 0;">
+                        <img width="20" src="https://go.updates.iata.org/l/123902/2020-12-08/8kkqpj/123902/1607452231Ip7oYJZL/bullet.png" alt="bullet">
+                    </div>
+                    <div class="col-md-10 col-sm-10 col" style="line-height: 180%; padding-bottom: 0px;">
+                        <p style="color: #000000; font-size: 20px; text-align: left;">Avoids inconsistencies of forecast models and subjective pilot reports</p>
+                    </div>
+                </div>
+                <div class="row" style="padding-left: 45px; margin: 10px;">
+                    <div class="col-md-1.5" style="padding-bottom: 15px; margin: 0;">
+                        <img width="20" src="https://go.updates.iata.org/l/123902/2020-12-08/8kkqpj/123902/1607452231Ip7oYJZL/bullet.png" alt="bullet">
+                    </div>
+                    <div class="col-md-10 col-sm-10 col" style="line-height: 180%; padding-bottom: 0px;">
+                        <p style="color: #000000; font-size: 20px; text-align: left;">Flight route specific information supports better planning for inflight activities</p>
+                    </div>
+                </div>
+                <div class="row" style="padding-left: 45px; margin: 10px;">
+                    <div class="col-md-1.5" style="padding-bottom: 15px; margin: 0;">
+                        <img width="20" src="https://go.updates.iata.org/l/123902/2020-12-08/8kkqpj/123902/1607452231Ip7oYJZL/bullet.png" alt="bullet">
+                    </div>
+                    <div class="col-md-10 col-sm-10 col" style="line-height: 180%; padding-bottom: 0px;">
+                        <p style="color: #000000; font-size: 20px; text-align: left;">Common turbulence reporting standard works for any aircraft</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- XP Block : END -->
+    
+    <!-- Savings Block : START -->
+	<div style="background-color: #ffffff; overflow: hidden;" data-aos="fade-up">
+		<div class="container">
+			<div class="row" style="padding-left: 10px; margin: 10px;">
+                <div class="col-md-10 col-sm-10 col" style="line-height: 180%; padding-bottom: 0px;">
+                    <p style="padding: 15px 30px 0px 30px;"><img width="60%" src="https://go.updates.iata.org/l/123902/2020-12-08/8kkrtn/123902/1607475200rDF647su/savings.png"></p>
+                    <p style="color: #000000; font-size: 24px; line-height: 125%; font-weight: normal; padding: 15px 30px 0px 30px;">Advanced notice of turbulence enables optimal flight planning and fuel efficiency.</p>
+                </div>
+                <div class="row" style="padding-left: 45px; margin: 10px;">
+                    <div class="col-md-1.5" style="padding-bottom: 15px; margin: 0;">
+                        <img width="20" src="https://go.updates.iata.org/l/123902/2020-12-08/8kkqpj/123902/1607452231Ip7oYJZL/bullet.png" alt="bullet">
+                    </div>
+                    <div class="col-md-10 col-sm-10 col" style="line-height: 180%; padding-bottom: 0px;">
+                        <p style="color: #000000; font-size: 20px; text-align: left;">Reduces chance of turbulence related maintenance issues and aircraft damage</p>
+                    </div>
+                </div>
+                <div class="row" style="padding-left: 45px; margin: 10px;">
+                    <div class="col-md-1.5" style="padding-bottom: 15px; margin: 0;">
+                        <img width="20" src="https://go.updates.iata.org/l/123902/2020-12-08/8kkqpj/123902/1607452231Ip7oYJZL/bullet.png" alt="bullet">
+                    </div>
+                    <div class="col-md-10 col-sm-10 col" style="line-height: 180%; padding-bottom: 0px;">
+                        <p style="color: #000000; font-size: 20px; text-align: left;">Fuel cost savings with improved routing</p>
+                    </div>
+                </div>
+                <div class="row" style="padding-left: 45px; margin: 10px;">
+                    <div class="col-md-1.5" style="padding-bottom: 15px; margin: 0;">
+                        <img width="20" src="https://go.updates.iata.org/l/123902/2020-12-08/8kkqpj/123902/1607452231Ip7oYJZL/bullet.png" alt="bullet">
+                    </div>
+                    <div class="col-md-10 col-sm-10 col" style="line-height: 180%; padding-bottom: 0px;">
+                        <p style="color: #000000; font-size: 20px; text-align: left;">Potential insurance related cost savings due to crew and/or aircraft injury</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Savings Block : END -->
+    
+    <!-- Yellow banner 3 : START -->
+	<div style="background-color: #FAC832; overflow: hidden;">
+		<div class="container">
+			<div class="row" style="overflow: hidden;">
+				<div class="col-md-12" style="padding: 20px 20px 0;"  data-aos="fade-down">
+                    <div style="row">
+                        <p style="color: #000000; font-size: 40px; line-height: 125%; font-weight: normal; padding: 15px; text-align: center;">How does it <strong>work?</strong></p>
+                    </div>
+                    <div class="row" style="background-color: #FAC832">
+				<div class="col-md-12 col-lg-4 col-sm-12 col-xs-12" style="padding: 30px 20px; display: block; height: 100%; vertical-align: middle; background-color: #FAC832; margin: 0; border: 20px;" data-aos="fade-left">
+                    <div class="responsive" style="height: 350px;">
+                        <p style="text-align:center;"><img width="150px" src="https://go.updates.iata.org/l/123902/2020-12-08/8kkqrz/123902/16074554761CzQzPpl/icon_1.png"></p>
+                        <h2 style="color: #000000; font-size: 20px; text-align: center; line-height: 125%; font-weight: bold; padding: 0 0 10px;">Collection</h2>
+                        <p class="text-responsive" style="color: #000000; font-size: 15px; text-align: center; line-height: 125%; font-weight: normal; padding: 20px 0 10px;">Global Turbulence Data is collected from aircraft inflight and consolidated through <strong>IATA’s Turbulence Aware platform</strong></p>
+                    </div>
+                    <div>
+                        
+                    </div>
+				</div>
+				<div class="col-md-12 col-lg-4 col-sm-12 col-xs-12" style="padding: 30px 20px; display: inline-block; height: 100%; vertical-align: middle; background-color: #FAC832; margin: 0;" data-aos="fade-left">
+                    <div class="responsive" style="height: 350px;">
+                        <p style="text-align:center;"><img width="150px" src="https://go.updates.iata.org/l/123902/2020-12-08/8kkqs2/123902/1607455476YMb7SoM4/icon_2.png"></p>
+                        <h2 style="color: #000000; font-size: 20px; text-align: center; line-height: 125%; font-weight: bold; padding: 0 0 10px;">Process</h2>
+                        <p class="text-responsive" style="color: #000000; font-size: 15px; text-align: center; line-height: 125%; font-weight: normal; padding: 20px 0 10px;">Anonymized turbulence data is made available through third party applications already used in the flight deck and operations center and <strong>IATA MET Viewer</strong></p>
+                    </div>
+                    <div>
+                        
+                    </div>
+				</div>
+                <div class="col-md-12 col-lg-4 col-sm-12 col-xs-12" style="padding: 30px 20px; display: inline-block; height: 100%; vertical-align: middle; background-color: #FAC832; margin: 0; height: 350;" data-aos="fade-left">
+                    <div class="responsive" style="height: 350px;">
+                        <p style="text-align:center;"><img width="150px" src="https://go.updates.iata.org/l/123902/2020-12-08/8kkqrx/123902/1607455475s5ucEzMK/icon_3.png"></p>
+                        <h2 style="color: #000000; font-size: 20px; text-align: center; line-height: 125%; font-weight: bold; padding: 0 0 10px;">View</h2>
+                        <p class="text-responsive" style="color: #000000; font-size: 15px; text-align: center; line-height: 125%; font-weight: normal; padding: 20px 0 10px;">Turbulence <strong>data is available in less than one second</strong> for pilots, crew, passengers, flight deck applications and operations centers</p>
+                    </div>
+				</div>
+			</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Yellow banner 3 : END -->
+
+    <!-- Grey banner : START -->
+	<div style="background-color: #7C7C7C; overflow: hidden;">
+		<div class="container">
+			<div class="row" style="overflow: hidden;">
+				<div class="col-md-12" style="padding: 20px 20px 0;"  data-aos="fade-down">
+                    <div><img width="40px" src="https://go.updates.iata.org/l/123902/2020-12-08/8kkrt6/123902/1607472882HJ1FAbKp/leftcorner.png">
+                    </div>
+                    <div style=""><img src="">
+                        <p style="color: #ffffff; font-size: 20px; line-height: 125%; font-weight: normal; padding: 25px; text-align: center;">“I’m a big fan of Turbulence Aware!  For the first time, we have real-time objective turbulence information at our fingertips.  In the past, all we had were forecasts maps with limited reliability and subjective PIREPS which are hit or miss in quality and quantity.  Turbulence Aware adds to safety and passenger comfort by allowing me to make better altitude and routing decisions. At the very least, we’re better equipped to advise our cabin crew and passengers on what to expect.  I look forward to future integrations of the data to make it even more accessible within our daily workflow.”</p>
+                        <p style="color: #ffffff; font-size: 15px; line-height: 125%; font-weight: normal; padding: 5px; text-align: center;"><strong>Tony Marotta,</strong> Director of Aviation,<br>Pilot Business aviation flight department</p>
+                    </div>
+                    <div><p style="text-align: end"><img width="40px" src="https://go.updates.iata.org/l/123902/2020-12-08/8kkrt2/123902/1607472881wHslMMG1/rightcorner.png"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Grey banner : END -->
+    
+    <!-- bottom banner : START -->
+    <div style="background-color: #ffffff; overflow: hidden; padding: 40px">
+        <div class="container">
+            <div class="row" style="overflow: hidden;">
+                <div class="col-md-6" style="padding: 20px;" data-aos="fade-up">
+                    <div>
+                        <a href="https://smartskynetworks.com/business-aviation/smoothsky/?utm_campaign=SmoothSky&utm_source=ITA%20website" target="_blank"><img src="https://go.updates.iata.org/l/123902/2020-12-08/8kkrt4/123902/1607472882wm8s7lEn/smoothsky.png" width="100%" height="auto"></a>
+                    </div>
+                </div>
+                <div class="col-md-6" style="padding: 20px;" data-aos="fade-down">
+                    <div>
+                        <a href="https://smartskynetworks.com/business-aviation/smoothsky/?utm_campaign=SmoothSky&utm_source=ITA%20website" target="_blank"> <img src="https://go.updates.iata.org/l/123902/2020-12-08/8kkrt8/123902/1607472886WLeYUjSQ/smartskynetworks.png" width="100%" height="auto"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- bottom banner : END -->
+    
+    <!-- Footer : START -->
+	<footer id="footer" class="footer" style="width: 100%; background-color: #525252; color: white; padding: 30px 0;">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-auto text-center text-md-left">
+            <img src="https://go.updates.iata.org/l/123902/2020-11-20/8dy4mq/123902/16059005858vbnqa5f/logo_iata.svg" class="img-fluid mb-2" alt="IATA Logo">
+          </div>
+          <div class="col-md-9 text-center text-md-left">
+            <p class="tagline">Our mission is to represent, lead and serve the airline industry</p>
+          </div>
+        </div>
+        <div class="row no-gutter mt-5">
+          <div class="col-md-3 col-lg-3 text-center text-md-left">
+            <p><span>Airlines. magazine</span><br><a style="text-decoration: none; color: white" href="http://www.airlines.iata.org"
+                target="_blank">www.airlines.iata.org</a></p>
+          </div>
+          <div class="col-md-4 col-lg-3 text-center text-md-left">
+            <p><span>Aviation and the environment</span><br><a style="text-decoration: none; color: white"  href="http://www.enviro.aero"
+                target="_blank">www.enviro.aero</a></p>
+          </div>
+          <div class="col-md-5 col-lg-6">
+            <div class="social-wrap text-center text-md-right">
+              <a href="https://twitter.com/iata" target="_blank"><img style="padding: 0 10px;" src="https://go.updates.iata.org/l/123902/2020-11-20/8dy4kq/123902/1605900543yZtTkVwv/icon_twitter.svg" class="img-fluid social-icon" alt="Twitter Icon"></a>
+              <a href="https://www.facebook.com/iata.org" target="_blank"><img style="padding: 0 10px;" src="https://go.updates.iata.org/l/123902/2020-11-20/8dy4j8/123902/1605900482k7hITosN/icon_facebook.svg" class="img-fluid social-icon" alt="Facebook Icon"></a>
+              <a href="https://www.linkedin.com/company/international-air-transport-association-iata/" target="_blank"><img style="padding: 0 10px;" src="https://go.updates.iata.org/l/123902/2020-11-20/8dy4jd/123902/1605900503WyhUG74s/icon_linkedin.svg" class="img-fluid social-icon" alt="LinkedIn Icon"></a>
+              <a href="https://www.youtube.com/user/IATAtv" target="_blank"><img style="padding: 0 10px;" src="https://go.updates.iata.org/l/123902/2020-11-20/8dy4lz/123902/1605900567Gjnt00Lg/icon_youtube.svg" class="img-fluid social-icon" alt="YouTube Icon"></a>
+              <a href="https://www.iata.org/api/rss/pressrelease" target="_blank"><img style="padding: 0 0 0 10px;" src="https://go.updates.iata.org/l/123902/2020-11-20/8dy4kn/123902/1605900529WoUzKzPB/icon_rss.svg" class="img-fluid social-icon" alt="RSS Icon"></a>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-md-8 text-center text-md-left">
+            <p>© International Air Transport Association (IATA) 2020. All rights reserved.</p>
+          </div>
+          <div class="col-md-4 text-center text-md-right">
+            <p class="legal"><a style="text-decoration: none; color: white"  href="https://www.iata.org/en/privacy/" target="_blank">Privacy</a> | <a style="text-decoration: none; color: white"  href="https://www.iata.org/en/terms/" target="_blank">Legal</a></p>
+          </div>
+        </div>
+      </div>
+  </footer>
+	<!-- Footer : END -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+    AOS.init({
+  duration: 1200,
+})
+    </script>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T883LZ"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+</body>
+</html>
